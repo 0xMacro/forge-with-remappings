@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "@openzeppelin/contracts": "4.8"
+  },
+  "dependencies": {
+    "synthetix": "github:JChiaramonte7/synthetix#develop"
+  }
+}

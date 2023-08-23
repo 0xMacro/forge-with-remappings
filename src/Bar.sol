@@ -3,6 +3,7 @@ pragma solidity ^0.8.13;
 
 import { PaymentSplitter } from "openzeppelin-contracts/contracts/finance/PaymentSplitter.sol";
 import "forge-std/Base.sol";
+import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 
 contract BarSplitter is PaymentSplitter {
   constructor(address[] memory payees, uint256[] memory shares_)
